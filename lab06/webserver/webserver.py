@@ -1,5 +1,5 @@
 import socket
-#
+#...
 def handle_request(client_socket, request_data):
     # Kiểm tra nếu request trỏ đến trang /admin
     if "GET /admin" in request_data:

@@ -36,6 +36,6 @@ def main():
         
         # Xử lý và gửi file tương ứng
         handle_request(client_socket, request_data)
-#
+#...
 if __name__ == '__main__':
     main()
